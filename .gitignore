@@ -1,0 +1,22 @@
+# Node.js - Exclude node_modules in both frontend and backend
+frontend/realtime-note-frontend/node_modules/
+backend/realtime-note-backend/node_modules/
+
+# Logs
+logs/
+
+# Build directories
+build/
+dist/
+
+# Environment variables - Only in backend
+backend/realtime-note-backend/.env
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Other common excludes for Node.js projects
+npm-debug.log
+yarn-debug.log
+yarn-error.log
