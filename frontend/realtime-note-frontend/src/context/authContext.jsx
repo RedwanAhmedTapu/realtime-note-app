@@ -47,6 +47,8 @@ export const AuthProvider = ({ children }) => {
       await axios.post(`${SERVER_URL}/api/auth/logout`, {}, { withCredentials: true });
       setAccessToken(null);
       setUser(null);
+      window.location.href = "/login";
+
     } catch (error) {
       console.error("Logout failed:", error.response?.data?.message);
     }
