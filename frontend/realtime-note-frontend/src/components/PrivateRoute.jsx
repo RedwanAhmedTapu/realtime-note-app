@@ -11,6 +11,7 @@ const PrivateRoute = ({ children }) => {
 
   useEffect(() => {
     if (!accessToken) {
+        
       return;
     }
 
