@@ -218,9 +218,9 @@ const Dashboard = () => {
               </button>
             )}
           </div>
-          <Tooltip id="create-tooltip" />
-          <Tooltip id="update-tooltip" />
-          <Tooltip id="cancel-tooltip" />
+          <Tooltip id="create-tooltip" delayHide={100}/>
+          <Tooltip id="update-tooltip" delayHide={100}/>
+          <Tooltip id="cancel-tooltip" delayHide={100}/>
         </div>
 
         {/*  Notes List */}
@@ -299,8 +299,8 @@ const Dashboard = () => {
               </ul>
             </div>
           )}
-          <Tooltip id="edit-tooltip" />
-          <Tooltip id="delete-tooltip" />
+          <Tooltip id="edit-tooltip"  delayHide={100}/>
+          <Tooltip id="delete-tooltip" delayHide={100}/>
         </div>
       </div>
     </div>

@@ -324,6 +324,12 @@
   .sticky {
     position: sticky;
   }
+  .top-3 {
+    top: calc(var(--spacing) * 3);
+  }
+  .right-3 {
+    right: calc(var(--spacing) * 3);
+  }
   .\!container {
     width: 100% !important;
     @media (width >= 40rem) {
@@ -578,6 +584,9 @@
   .pr-2 {
     padding-right: calc(var(--spacing) * 2);
   }
+  .pr-12 {
+    padding-right: calc(var(--spacing) * 12);
+  }
   .text-center {
     text-align: center;
   }
@@ -628,6 +637,9 @@
   }
   .text-red-400 {
     color: var(--color-red-400);
+  }
+  .text-red-500 {
+    color: var(--color-red-500);
   }
   .text-slate-50 {
     color: var(--color-slate-50);
@@ -802,6 +814,13 @@
     &:hover {
       @media (hover: hover) {
         color: var(--color-blue-300);
+      }
+    }
+  }
+  .hover\:text-slate-200 {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-slate-200);
       }
     }
   }
